@@ -19,17 +19,24 @@
 
 .cabecalho-lista-item{
     display: inline-block; 
-    margin: 0 12px;
+    margin: 0 15px;
     font-size: 15px;
     font-family: 'Caprasimo', cursive;
+    text-align: end;
+    text-align-last: right;
 
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
 }
 
 .escola-imagem{
     width: 20%;
 }
 
-.escola{
+#escola{
     background-image: linear-gradient(#828284,#B2B1B1);
     color: aliceblue;
     display: flex;
@@ -81,7 +88,7 @@
     width: 24px;
 }
 
-.estudantes{
+#estudantes{
     text-align: center;
 }
 
