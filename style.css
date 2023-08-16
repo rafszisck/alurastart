@@ -7,7 +7,8 @@
     background-color:#828284;
     color: aliceblue;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    justify-items: right;
     align-items: center;
     padding: 22px 22px;
     z-index: 1;
@@ -18,12 +19,11 @@
 }
 
 .cabecalho-lista-item{
-    display: inline-block; 
+    display: inline-block;
+    align-content: flex-end; 
     margin: 0 15px;
     font-size: 15px;
     font-family: 'Caprasimo', cursive;
-    text-align: end;
-    text-align-last: right;
 
 }
 
